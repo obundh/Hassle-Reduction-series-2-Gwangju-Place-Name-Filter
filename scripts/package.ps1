@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop'
 $projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $distDir = Join-Path $projectRoot 'dist'
 $downloadsDir = Join-Path $projectRoot 'downloads'
-$archivePath = Join-Path $distDir 'Hassle-Reduction-series-2-Gwangju-Place-Name-Filter-v0.4.0.zip'
+$archivePath = Join-Path $distDir 'Hassle-Reduction-series-2-Gwangju-Place-Name-Filter-v0.4.1.zip'
 $latestArchivePath = Join-Path $distDir 'Hassle-Reduction-series-2-Gwangju-Place-Name-Filter.zip'
 $publicDownloadPath = Join-Path $downloadsDir 'Hassle-Reduction-series-2-Gwangju-Place-Name-Filter.zip'
 

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "광주권·전남권 구분",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "전남광주 지역을 광주권과 전남권으로 나누고 전남권을 필요할 때만 잠시 숨깁니다.",
   "incognito": "not_allowed",
   "permissions": [

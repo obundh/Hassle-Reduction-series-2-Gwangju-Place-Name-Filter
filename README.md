@@ -6,11 +6,11 @@
 
 [![GitHub 최신 ZIP 다운로드](https://img.shields.io/badge/GitHub-%EC%B5%9C%EC%8B%A0_ZIP_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-2ea44f?style=for-the-badge&logo=github)](https://github.com/obundh/Hassle-Reduction-series-2-Gwangju-Place-Name-Filter/releases/latest/download/Hassle-Reduction-series-2-Gwangju-Place-Name-Filter.zip)
 
-GitHub가 차단되었거나 버튼 그림이 보이지 않으면 **[GitLab에서 최신 ZIP 받기](https://gitlab.aigov.go.kr/tyui22/Hassle-Reduction-series-2-Gwangju-Place-Name-Filter/-/releases/permalink/latest/downloads/Hassle-Reduction-series-2-Gwangju-Place-Name-Filter.zip)**를 누르세요.
+GitHub가 차단되었거나 버튼 그림이 보이지 않으면 **[GitLab에서 v0.4.1 ZIP 바로 받기](https://gitlab.aigov.go.kr/tyui22/Hassle-Reduction-series-2-Gwangju-Place-Name-Filter/-/raw/v0.4.1/downloads/Hassle-Reduction-series-2-Gwangju-Place-Name-Filter.zip?inline=false)**를 누르세요.
 
 **버튼 하나를 눌러 ZIP을 받은 뒤, 아래 순서대로 설치하면 됩니다.**
 
-버전 `v0.4.0` · 로그인 불필요 · 현재 탭에서만 실행 · 페이지 내용을 외부로 전송하지 않음
+버전 `v0.4.1` · 로그인 불필요 · 현재 탭에서만 실행 · 페이지 내용을 외부로 전송하지 않음
 
 </div>
 
@@ -22,9 +22,9 @@ GitHub가 차단되었거나 버튼 그림이 보이지 않으면 **[GitLab에�
 ### 1단계: ZIP 파일 받기
 
 1. 이 문서 맨 위의 초록색 **GitHub 최신 ZIP 다운로드** 버튼을 누릅니다.
-2. 회사·기관망에서 GitHub가 차단되었다면 바로 아래의 **GitLab에서 최신 ZIP 받기** 링크를 누릅니다.
+2. 회사·기관망에서 GitHub가 차단되었다면 바로 아래의 **GitLab에서 v0.4.1 ZIP 바로 받기** 링크를 누릅니다.
 3. 브라우저 오른쪽 위의 다운로드 아이콘을 누르거나, Windows의 **다운로드** 폴더를 엽니다.
-4. 내려받은 파일 이름이 `Hassle-Reduction-series-2-Gwangju-Place-Name-Filter.zip`인지 확인합니다. 버전이 붙은 파일을 직접 받았다면 이름 끝에 `-v0.4.0.zip`이 표시될 수 있습니다.
+4. 내려받은 파일 이름이 `Hassle-Reduction-series-2-Gwangju-Place-Name-Filter.zip`인지 확인합니다. 버전이 붙은 파일을 직접 받았다면 이름 끝에 `-v0.4.1.zip`이 표시될 수 있습니다.
 
 ### 2단계: ZIP 압축 풀기
 
