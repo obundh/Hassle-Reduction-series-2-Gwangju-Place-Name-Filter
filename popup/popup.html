@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>광주권·전남권 구분</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">종전 행정구역 기준</p>
+        <h1>광주권·전남권 구분</h1>
+        <p id="site-label" class="site-label">현재 페이지 확인 중</p>
+      </header>
+
+      <section aria-labelledby="display-title">
+        <h2 id="display-title">현재 페이지에 표지 붙이기</h2>
+        <button class="split-button" type="button" data-mode="split">
+          <span>권역 구분 표시</span>
+          <small>아무것도 숨기지 않고 광주 5구와 전남 22시·군을 나눕니다</small>
+        </button>
+        <div class="legend" aria-label="권역 색상 범례">
+          <span class="legend-item legend-gwangju"><i></i>광주권</span>
+          <span class="legend-item legend-jeonnam"><i></i>전남권</span>
+          <span class="legend-note">원래 순서·내용 유지</span>
+        </div>
+        <button
+          id="toggle-jeonnam"
+          class="temporary-button"
+          type="button"
+          aria-pressed="false"
+        >
+          <span>전남권 잠시 숨기기</span>
+          <small>전남권만 화면에서 접고 광주권 중심으로 봅니다</small>
+        </button>
+      </section>
+
+      <section id="vms-tools" class="site-tools" aria-labelledby="vms-title" hidden>
+        <div class="section-heading">
+          <h2 id="vms-title">VMS 광주 5구 바로 검색</h2>
+          <span class="adapter-badge">전용 기능</span>
+        </div>
+        <p>VMS 결과카드에는 세부 구가 없어 자동 구분하지 않습니다. 구를 누르면 VMS의 공식 검색조건으로 다시 조회합니다.</p>
+        <div class="district-grid" role="group" aria-label="VMS 광주 구 선택">
+          <button type="button" data-vms-code="1221000000">동구</button>
+          <button type="button" data-vms-code="1224000000">서구</button>
+          <button type="button" data-vms-code="1227000000">남구</button>
+          <button type="button" data-vms-code="1230000000">북구</button>
+          <button type="button" data-vms-code="1233000000">광산구</button>
+        </div>
+      </section>
+
+      <section id="richgo-tools" class="site-tools" aria-labelledby="richgo-title" hidden>
+        <div class="section-heading">
+          <h2 id="richgo-title">리치고 광주 5구 바로가기</h2>
+          <span class="adapter-badge">전용 기능</span>
+        </div>
+        <p id="richgo-note">지역 선택창을 열고 권역 표시를 누르면 27개 지역을 모두 둔 채 광주권과 전남권으로 표시합니다. 아래 버튼은 선택한 광주 구로 이동합니다.</p>
+        <div class="district-grid" role="group" aria-label="리치고 광주 구 선택">
+          <button type="button" data-richgo-district="동구">동구</button>
+          <button type="button" data-richgo-district="서구">서구</button>
+          <button type="button" data-richgo-district="남구">남구</button>
+          <button type="button" data-richgo-district="북구">북구</button>
+          <button type="button" data-richgo-district="광산구">광산구</button>
+        </div>
+      </section>
+
+      <div class="footer-actions">
+        <button id="clear-filter" class="clear-button" type="button">표시 지우기</button>
+      </div>
+
+      <output id="status" role="status" aria-live="polite">권역 표시를 눌러주세요.</output>
+      <p class="privacy">확장 자체는 현재 탭의 내용을 별도 외부 서버로 보내거나 저장하지 않습니다.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
