@@ -1,6 +1,7 @@
 {
   "name": "gwangju-web-filter",
   "version": "0.4.0",
+  "license": "MIT",
   "private": true,
   "description": "전남광주통합특별시 웹 목록을 광주권과 전남권으로 나누어 보는 로컬 Chrome 확장프로그램",
   "homepage": "https://github.com/obundh/Hassle-Reduction-series-2-Gwangju-Place-Name-Filter#readme",

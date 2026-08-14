@@ -16,6 +16,7 @@ if (-not (Test-Path -LiteralPath $downloadsDir)) {
 
 $sourcePaths = @(
     (Join-Path $projectRoot 'manifest.json'),
+    (Join-Path $projectRoot 'LICENSE'),
     (Join-Path $projectRoot 'README.md'),
     (Join-Path $projectRoot 'docs'),
     (Join-Path $projectRoot 'popup'),
